@@ -2,14 +2,15 @@ import './App.css'
 
 import Header from './components/Header/Header'
 import LeftMenu from './components/Leftmenu/Leftmenu'
-import Main from './components/Main/Main'
+import EmailView from './components/Main/EmailView'
+//import Main from './components/Main/EmailView'
 
 function App() {
   return (
     <div className="app">
       <Header />
       <LeftMenu />
-      <Main />
+      <EmailView />
     </div>
   )
 }
